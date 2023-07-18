@@ -1,0 +1,139 @@
+body {
+    background-color: #232121; 
+} 
+
+.logo {
+    position: absolute;
+    left: 32px;
+    top: 32px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #f5f5f5;
+    transform: translate(0px, 0px);
+    /* opacity: 0; */
+    transition: all 1.5s ease 0s;
+}
+
+.logo._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+} 
+
+.home {
+    position: absolute;
+    width: 257px;
+    height: 120px;
+    /* left: -90px; */
+    left: -155px;
+    bottom: 18.5%;
+    font-family: "impact";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 120px;
+    letter-spacing: 0.28em;
+    color: #F5F5F5;
+    transform: translate(0px, 0px);
+    /* opacity: 0; */
+    transition: all 0.5s ease 0s; 
+}
+
+
+.home._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+} 
+
+.footer {
+    width: 1020px;
+    height: 144px;
+    border-left: 1px;
+    /* margin-left: 268px; */
+    margin-left: 155px; 
+    bottom: 32px;
+    margin-top: 72px;
+    transform: translate(0px, 0px);
+    /* opacity: 0; */
+    transition: all 1.5s ease 0s;
+}
+
+.footer._active {
+    transform: translate(0px, 0px);
+    opacity: 1;    
+} 
+
+nav {
+    height: 148px;
+    padding-top: 4px;
+    padding-bottom: 43px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav > a { 
+    color: #f5f5f5;
+    border-left: 1px solid;
+    border-color: #f5f5f5;
+    padding-top: 4px; 
+    padding-left: 4px; 
+    height: 148px; 
+}
+
+nav > a:hover {
+    background-color: #232121;
+    box-shadow: 0 4px 16px 0 rgba(23, 21, 
+21, 0.25);
+}
+
+
+.img {
+    width: 100%;
+    top: 0px; 
+    transform: translate(0px, 0px);
+    /* opacity: 0; */
+    transition: all 1.5s ease 0s;
+}
+
+
+.img._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+.fh {
+    padding-right: 180px;
+}
+ 
+.fp {
+    padding-right: 149px;
+}
+
+.fn {
+    padding-right: 182px;
+}
+
+.fc {
+    padding-right: 167px;
+}
+
+.fl {
+    padding-right: 154px;
+}
+
+.main {
+    position: relative;
+    width: 81%;
+    margin-left: auto;
+}
+
+.menu {
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    right: 32px;
+    top: 32px;
+}

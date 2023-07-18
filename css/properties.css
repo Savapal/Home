@@ -1,0 +1,188 @@
+body {
+    background-color: #FFFFFF;
+}
+
+@media (min-width: 992px) {
+
+.logo {
+    position: absolute;
+    left: 32px;
+    top: 32px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+
+h1 {
+    width: 493px;
+    height: 96px;
+    font-family: "impact";
+    margin-top: 160px;
+    margin-left: 32px;
+    margin-left: 155px;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 96px;
+    letter-spacing: 28%;
+    color: #000000;
+}
+
+p {
+    position: absolute;
+    padding-top: 120px;
+    padding-left: 0px;
+    width: 432px;
+    height: 264px;
+}
+
+.blocks {
+    display: block;
+    justify-content: center;
+    
+}
+
+.block {
+    /* width: 1130px; */
+    width: 78.4%;
+    height: 528px;
+    /* margin-left: 268px; */
+    margin-left: 155px;
+    margin-right: 155px;
+    margin-bottom: 192px;
+}
+
+#b1 {
+    top: 328px;
+    /* margin-left: 32px; */
+    right: 268px;
+    width: 78.4%;
+}
+
+#b2 {
+    top: 1048px;
+    /* margin-left: 268px; */
+    right: 32px;
+    width: 78.4%;
+}
+
+#b3 {
+    top: 1768px;
+    /* margin-left: 268px; */
+    right: 32px;
+    bottom: 472px;
+    width: 78.4%;
+}
+
+.img1 {
+    width: 432px;
+    height: 528px;
+    padding-left: 708px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+
+.img2 {
+    width: 432px;
+    height: 528px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px; 
+    padding-bottom: 0px;
+}
+
+.img3 {
+    width: 432px;
+    height: 528px;
+    padding-left: 708px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+
+.p1 {
+    position: absolute;
+    width: 432px;
+    height: 264px;
+    padding-left: 0px;
+    padding-top: 120px;
+}
+
+.p2 {
+    position: absolute;
+    width: 431px;
+    height: 264px;
+    padding-left: 708px;
+    padding-top: 120px; 
+}
+
+.p3 {
+    position: absolute;
+    width: 431px;
+    height: 264px;
+    padding-left: 0px;
+    padding-top: 120px;
+}
+
+.footer {
+    /* position: relative;
+    display: flex;
+    justify-content: center;
+    gap: ; */
+    width: 1020px;
+    height: 144px;
+    margin-left: 268px;
+    /*  
+    width: 1130px;
+    height: 184px;
+    margin-left: 155px;
+    margin-right: 155px; */
+    top: 848px;
+    bottom: 0px;
+}
+
+nav {
+    height: 144px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav > a { 
+    color: #f5f5f5;
+    border-left: 1px solid;
+    border-color: #f5f5f5;
+    padding-top: 4px; 
+    padding-left: 4px; 
+    height: 144px;  
+}
+
+.footer_bg_color {
+    background-color: #000000;
+    height: 184px;
+}
+
+.fh {
+    padding-left: 0px;
+    padding-right: 180px;
+}
+ 
+.fp {
+    padding-right: 149px;
+}
+
+.fn {
+    padding-right: 182px;
+}
+
+.fc {
+    padding-right: 167px;
+}
+
+.fl {
+    padding-right: 154px;
+}
+
+}
